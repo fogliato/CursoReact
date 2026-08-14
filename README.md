@@ -2,6 +2,37 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Pré-requisitos
+
+Para rodar este projeto na sua máquina, você precisa ter instalado:
+
+- **[Node.js](https://nodejs.org/)** (versão 14 ou superior — recomendada a versão LTS 18+). O download já inclui o **npm**.
+- **npm** (vem junto com o Node.js) ou, opcionalmente, **[Yarn](https://yarnpkg.com/)**.
+- **[Git](https://git-scm.com/)** (opcional, para clonar o repositório).
+
+Você pode verificar se as ferramentas estão instaladas rodando:
+
+```bash
+node --version
+npm --version
+```
+
+## Instalação
+
+Na pasta do projeto, instale as dependências:
+
+```bash
+npm install
+```
+
+Em seguida, inicie a aplicação:
+
+```bash
+npm start
+```
+
+A aplicação ficará disponível em [http://localhost:3000](http://localhost:3000).
+
 ## Available Scripts
 
 In the project directory, you can run:
