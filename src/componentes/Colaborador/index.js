@@ -1,6 +1,11 @@
 import './Colaborador.css'
 
-const Colaborador = ({corDeFundo, nome, cargo, imagem}) => {
+/**
+ * Card de um colaborador.
+ * @param {object} props
+ * @param {string} [props.especialidade] Exibida abaixo do cargo; a linha é omitida quando ausente/vazia.
+ */
+const Colaborador = ({corDeFundo, nome, cargo, imagem, especialidade}) => {
     return (<div className='colaborador'>
         <div className='cabecalho' style={{ backgroundColor: corDeFundo }}>
             <img src={imagem} alt={nome}/>
@@ -8,6 +13,9 @@ const Colaborador = ({corDeFundo, nome, cargo, imagem}) => {
         <div className='rodape'>
             <h4>{nome}</h4>
             <h5>{cargo}</h5>
+            {especialidade && especialidade.trim() && (
+                <h6 className='especialidade'>Especialidade: {especialidade}</h6>
+            )}
         </div>
     </div>)
 }

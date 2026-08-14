@@ -11,3 +11,9 @@
     padding: 36px 64px;
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
 }
+
+.formulario .campo-erro{
+    color: #D32F2F;
+    font-size: 14px;
+    margin: 4px 0 12px;
+}
